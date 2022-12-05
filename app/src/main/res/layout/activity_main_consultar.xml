@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainConsultar">
+
+    <TextView
+        android:id="@+id/tvConsultaPais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvConsultaResultado"
+        android:textSize="@dimen/tvConsulta" />
+
+    <LinearLayout
+        android:id="@+id/linear1Consulta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <EditText
+            android:id="@+id/etEquipoConsulta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/hint_etConsultaEquipo"
+            android:inputType="text"
+            android:textSize="@dimen/textSizeHint" />
+
+        <Button
+            android:id="@+id/btnSeleccionarConsulta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.4"
+            android:backgroundTint="@color/rojoQatar22"
+            android:layout_marginLeft="@dimen/margenBtEt"
+            android:layout_marginRight="@dimen/margenBtEt"
+            android:text="@string/btnSeleccionar"
+            android:textSize="@dimen/textSizeButton1" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/flContenedor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1Consulta"
+        android:layout_marginTop="@dimen/margenFrame"/>
+    <FrameLayout
+        android:id="@+id/flContenedor2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flContenedor"
+        android:layout_marginTop="@dimen/margenFrame"/>
+    <FrameLayout
+        android:id="@+id/flContenedor3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flContenedor2"
+        android:layout_marginTop="@dimen/margenFrame"/>
+    <FrameLayout
+        android:id="@+id/flContenedor4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flContenedor3"
+        android:layout_marginTop="@dimen/margenFrame"/>
+    <FrameLayout
+        android:id="@+id/flContenedor5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flContenedor4"
+        android:layout_marginTop="@dimen/margenFrame"/>
+    <FrameLayout
+        android:id="@+id/flContenedor6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flContenedor5"
+        android:layout_marginTop="@dimen/margenFrame"/>
+    <FrameLayout
+        android:id="@+id/flContenedor7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flContenedor6"
+        android:layout_marginTop="@dimen/margenFrame"/>
+
+
+</RelativeLayout>

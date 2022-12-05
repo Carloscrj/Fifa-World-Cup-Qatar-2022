@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainRegistro">
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvTituloRegistro"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etFechaHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColorHint="@color/black"
+        android:hint="@string/hint_etFechayHora"
+        android:inputType="text"
+        android:textSize="@dimen/textSizeHint" />
+
+    <EditText
+        android:id="@+id/etFase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="80dp"
+        android:textColorHint="@color/black"
+        android:hint="@string/hint_etFase"
+        android:inputType="text"
+        android:textSize="@dimen/textSizeHint" />
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etFase"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <EditText
+            android:id="@+id/etEquipo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColorHint="@color/black"
+            android:hint="@string/hint_etEquipo1"
+            android:inputType="text"
+            android:textSize="@dimen/textSizeHint" />
+
+        <Button
+            android:id="@+id/btnSeleccionar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:backgroundTint="@color/rojoQatar22"
+            android:layout_marginLeft="@dimen/margenBtEt"
+            android:text="@string/btnSeleccionar"
+            android:textSize="@dimen/textSizeButton1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1"
+        android:orientation="horizontal"
+      >
+
+        <EditText
+            android:id="@+id/etEquipo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColorHint="@color/black"
+            android:hint="@string/hint_etEquipo2"
+            android:inputType="text"
+            android:textSize="@dimen/textSizeHint" />
+
+        <Button
+            android:id="@+id/btnSeleccionar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:backgroundTint="@color/rojoQatar22"
+            android:layout_marginLeft="@dimen/margenBtEt"
+            android:text="@string/btnSeleccionar"
+            android:textSize="@dimen/textSizeButton1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2"
+        android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/etGoles1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColorHint="@color/black"
+        android:hint="@string/hint_etGoles1"
+        android:textAlignment="center"
+        android:inputType="text"
+        android:textSize="@dimen/textSizeHint" />
+
+    <TextView
+        android:id="@+id/tvGuion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/tvGuion"
+        android:textAlignment="center"
+        android:textSize="@dimen/textSizeButton"/>
+
+    <EditText
+        android:id="@+id/etGoles2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColorHint="@color/black"
+        android:textAlignment="center"
+        android:hint="@string/hint_etGoles2"
+        android:inputType="text"
+        android:textSize="@dimen/textSizeHint" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear3"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnGuardarResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="@color/rojoQatar22"
+            android:text="@string/btnGuardarResultado"
+            android:textSize="@dimen/textSizeButton" />
+
+        <Button
+            android:id="@+id/btnLimpiarDatos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="@color/rojoQatar22"
+            android:text="@string/btnLimpiarDatos"
+            android:textSize="@dimen/textSizeButton" />
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

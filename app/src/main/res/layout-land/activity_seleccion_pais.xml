@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SeleccionPais">
+
+    <TextView
+        android:id="@+id/tvSeleccionPais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvSeleccionPais"
+        android:textSize="@dimen/tvConsulta" />
+
+    <LinearLayout
+        android:id="@+id/linear1SeleecionPais"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alturaLayoutSeleccionHorizontal"
+        android:orientation="horizontal"
+        android:layout_below="@id/tvSeleccionPais">
+
+        <Button
+            android:id="@+id/btnAlemania"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/bottomMultiple"
+            android:textSize="@dimen/buttonMultiple"
+            android:textAllCaps="false"
+            android:textAlignment="textStart"
+            android:textColor= "@color/black"
+            android:background= "@android:color/transparent"
+            android:paddingTop="@dimen/pdTopMultiple"
+            android:text="@string/btnAlemania"/>
+
+        <Button
+            android:id="@+id/btnArabiaSaudi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/bottomMultiple"
+            android:textSize="@dimen/buttonMultiple"
+            android:textAllCaps="false"
+            android:textColor= "@color/black"
+            android:textAlignment="textStart"
+            android:background= "@android:color/transparent"
+            android:paddingTop="@dimen/pdTopMultiple"
+            android:text="@string/btnArabiaSaudi" />
+
+        <Button
+            android:id="@+id/btnArgentina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/bottomMultiple"
+            android:textSize="@dimen/buttonMultiple"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor= "@color/black"
+            android:background= "@android:color/transparent"
+            android:paddingTop="@dimen/pdTopMultiple"
+            android:text="@string/btnArgentina" />
+        <Button
+            android:id="@+id/btnAustralia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/bottomMultiple"
+            android:textSize="@dimen/buttonMultiple"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor= "@color/black"
+            android:background= "@android:color/transparent"
+            android:paddingTop="@dimen/pdTopMultiple"
+            android:text="@string/btnAustralia"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2SeleccionPais"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alturaLayoutSeleccionHorizontal"
+        android:orientation="horizontal"
+        android:layout_below="@id/linear1SeleecionPais">
+
+
+        <Button
+            android:id="@+id/btnBelgica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/bottomMultiple"
+            android:textSize="@dimen/buttonMultiple"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor= "@color/black"
+            android:background= "@android:color/transparent"
+            android:paddingTop="@dimen/pdTopMultiple"
+            android:text="@string/btnBelgica" />
+
+        <Button
+            android:id="@+id/btnBrasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/bottomMultiple"
+            android:textSize="@dimen/buttonMultiple"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor= "@color/black"
+            android:background= "@android:color/transparent"
+            android:paddingTop="@dimen/pdTopMultiple"
+            android:text="@string/btnBrasil" />
+
+        <Button
+            android:id="@+id/btnCamerun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/bottomMultiple"
+            android:textSize="@dimen/buttonMultiple"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor= "@color/black"
+            android:background= "@android:color/transparent"
+            android:paddingTop="@dimen/pdTopMultiple"
+            android:text="@string/btnCamerun"/>
+
+        <Button
+            android:id="@+id/btnCanada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/bottomMultiple"
+            android:textSize="@dimen/buttonMultiple"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor= "@color/black"
+            android:background= "@android:color/transparent"
+            android:paddingTop="@dimen/pdTopMultiple"
+            android:text="@string/btnCanadá" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear3SeleccionPais"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alturaLayoutSeleccionHorizontal"
+        android:orientation="horizontal"
+        android:layout_below="@id/linear2SeleccionPais">
+
+        <Button
+            android:id="@+id/btnCoreadelSur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/bottomMultiple"
+            android:textSize="@dimen/buttonMultiple"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor= "@color/black"
+            android:background= "@android:color/transparent"
+            android:paddingTop="@dimen/pdTopMultiple"
+            android:text="@string/btnCoreadelSur" />
+        <Button
+            android:id="@+id/btnCostaRica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/bottomMultiple"
+            android:textSize="@dimen/buttonMultiple"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor= "@color/black"
+            android:background= "@android:color/transparent"
+            android:paddingTop="@dimen/pdTopMultiple"
+            android:text="@string/btnCostaRica"/>
+
+        <Button
+            android:id="@+id/btnCroacia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/bottomMultiple"
+            android:textSize="@dimen/buttonMultiple"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor= "@color/black"
+            android:background= "@android:color/transparent"
+            android:paddingTop="@dimen/pdTopMultiple"
+            android:text="@string/btnCroacia" />
+
+        <Button
+            android:id="@+id/btnDinamarca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/bottomMultiple"
+            android:textSize="@dimen/buttonMultiple"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor= "@color/black"
+            android:background= "@android:color/transparent"
+            android:paddingTop="@dimen/pdTopMultiple"
+            android:text="@string/btnDinamarca" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear4SeleccionPais"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alturaLayoutSeleccionHorizontal"
+        android:orientation="horizontal"
+        android:layout_below="@id/linear3SeleccionPais">
+
+        <Button
+            android:id="@+id/btnEcuador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/bottomMultiple"
+            android:textSize="@dimen/buttonMultiple"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor= "@color/black"
+            android:background= "@android:color/transparent"
+            android:paddingTop="@dimen/pdTopMultiple"
+            android:text="@string/btnEcuador"/>
+
+        <Button
+            android:id="@+id/btnEspania"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/bottomMultiple"
+            android:textSize="@dimen/buttonMultiple"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor= "@color/black"
+            android:background= "@android:color/transparent"
+            android:paddingTop="@dimen/pdTopMultiple"
+            android:text="@string/btnEspania" />
+
+        <Button
+            android:id="@+id/btnEstadosUnidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/bottomMultiple"
+            android:textSize="@dimen/buttonMultiple"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor= "@color/black"
+            android:background= "@android:color/transparent"
+            android:paddingTop="@dimen/pdTopMultiple"
+            android:text="@string/btnEstadosUnidos" />
+
+        <Button
+            android:id="@+id/btnFrancia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/bottomMultiple"
+            android:textSize="@dimen/buttonMultiple"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor= "@color/black"
+            android:background= "@android:color/transparent"
+            android:paddingTop="@dimen/pdTopMultiple"
+            android:text="@string/btnFrancia"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear5SeleccionPais"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alturaLayoutSeleccionHorizontal"
+        android:orientation="horizontal"
+        android:layout_below="@id/linear4SeleccionPais">
+
+        <Button
+            android:id="@+id/btnGales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/bottomMultiple"
+            android:textSize="@dimen/buttonMultiple"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor= "@color/black"
+            android:background= "@android:color/transparent"
+            android:paddingTop="@dimen/pdTopMultiple"
+            android:text="@string/btnGales" />
+
+        <Button
+            android:id="@+id/btnGhana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/bottomMultiple"
+            android:textSize="@dimen/buttonMultiple"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor= "@color/black"
+            android:background= "@android:color/transparent"
+            android:paddingTop="@dimen/pdTopMultiple"
+            android:text="@string/btnGhana" />
+
+        <Button
+            android:id="@+id/btnHolanda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/bottomMultiple"
+            android:textSize="@dimen/buttonMultiple"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor= "@color/black"
+            android:background= "@android:color/transparent"
+            android:paddingTop="@dimen/pdTopMultiple"
+            android:text="@string/btnHolanda"/>
+
+        <Button
+            android:id="@+id/btnInglaterra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/bottomMultiple"
+            android:textSize="@dimen/buttonMultiple"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor= "@color/black"
+            android:background= "@android:color/transparent"
+            android:paddingTop="@dimen/pdTopMultiple"
+            android:text="@string/btnInglaterra" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear6SeleccionPais"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alturaLayoutSeleccionHorizontal"
+        android:orientation="horizontal"
+        android:layout_below="@id/linear5SeleccionPais">
+
+        <Button
+            android:id="@+id/btnIran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/bottomMultiple"
+            android:textSize="@dimen/buttonMultiple"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor= "@color/black"
+            android:background= "@android:color/transparent"
+            android:paddingTop="@dimen/pdTopMultiple"
+            android:text="@string/btnIran" />
+
+        <Button
+            android:id="@+id/btnJapon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/bottomMultiple"
+            android:textSize="@dimen/buttonMultiple"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor= "@color/black"
+            android:background= "@android:color/transparent"
+            android:paddingTop="@dimen/pdTopMultiple"
+            android:text="@string/btnJapon"/>
+
+        <Button
+            android:id="@+id/btnMarruecos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/bottomMultiple"
+            android:textSize="@dimen/buttonMultiple"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor= "@color/black"
+            android:background= "@android:color/transparent"
+            android:paddingTop="@dimen/pdTopMultiple"
+            android:text="@string/btnMarruecos" />
+
+
+        <Button
+            android:id="@+id/btnMexico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/bottomMultiple"
+            android:textSize="@dimen/buttonMultiple"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor= "@color/black"
+            android:background= "@android:color/transparent"
+            android:paddingTop="@dimen/pdTopMultiple"
+            android:text="@string/btnMexico" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear7SeleccionPais"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alturaLayoutSeleccionHorizontal"
+        android:orientation="horizontal"
+        android:layout_below="@id/linear6SeleccionPais">
+
+        <Button
+            android:id="@+id/btnPolonia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/bottomMultiple"
+            android:textSize="@dimen/buttonMultiple"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor= "@color/black"
+            android:background= "@android:color/transparent"
+            android:paddingTop="@dimen/pdTopMultiple"
+            android:text="@string/btnPolonia"/>
+
+        <Button
+            android:id="@+id/btnPortugal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/bottomMultiple"
+            android:textSize="@dimen/buttonMultiple"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor= "@color/black"
+            android:background= "@android:color/transparent"
+            android:paddingTop="@dimen/pdTopMultiple"
+            android:text="@string/btnPortugal" />
+
+        <Button
+            android:id="@+id/btnQatar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/bottomMultiple"
+            android:textSize="@dimen/buttonMultiple"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor= "@color/black"
+            android:background= "@android:color/transparent"
+            android:paddingTop="@dimen/pdTopMultiple"
+            android:text="@string/btnQatar" />
+
+        <Button
+            android:id="@+id/btnSenegal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/bottomMultiple"
+            android:textSize="@dimen/buttonMultiple"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor= "@color/black"
+            android:background= "@android:color/transparent"
+            android:paddingTop="@dimen/pdTopMultiple"
+            android:text="@string/btnSenegal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear8SeleccionPais"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alturaLayoutSeleccionHorizontal"
+        android:orientation="horizontal"
+        android:layout_below="@id/linear7SeleccionPais">
+
+        <Button
+            android:id="@+id/btnSerbia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/bottomMultiple"
+            android:textSize="@dimen/buttonMultiple"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor= "@color/black"
+            android:background= "@android:color/transparent"
+            android:paddingTop="@dimen/pdTopMultiple"
+            android:text="@string/btnSerbia" />
+
+        <Button
+            android:id="@+id/btnSuiza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/bottomMultiple"
+            android:textSize="@dimen/buttonMultiple"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor= "@color/black"
+            android:background= "@android:color/transparent"
+            android:paddingTop="@dimen/pdTopMultiple"
+            android:text="@string/btnSuiza" />
+
+        <Button
+            android:id="@+id/btnTunez"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/bottomMultiple"
+            android:textSize="@dimen/buttonMultiple"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor= "@color/black"
+            android:background= "@android:color/transparent"
+            android:paddingTop="@dimen/pdTopMultiple"
+            android:text="@string/btnTunez"/>
+
+        <Button
+            android:id="@+id/btnUruguay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/bottomMultiple"
+            android:textSize="@dimen/buttonMultiple"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor= "@color/black"
+            android:background= "@android:color/transparent"
+            android:paddingTop="@dimen/pdTopMultiple"
+            android:text="@string/btnUruguay" />
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/etEquipoSeleccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear8SeleccionPais"
+        android:hint="@string/hint_etSeleccionPais"
+        android:inputType="text"
+        android:textSize="@dimen/textSizeHint" />
+
+    <LinearLayout
+        android:id="@+id/linear12SeleccionPais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/etEquipoSeleccion">
+
+        <Button
+        android:id="@+id/btnaceptarSeleccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="@color/rojoQatar22"
+        android:layout_marginLeft="@dimen/margenBtEt"
+        android:layout_marginRight="@dimen/margenCancelard"
+        android:text="@string/btnAceptarSeleccion"
+        android:textSize="@dimen/textSizeButton1" />
+
+        <Button
+            android:id="@+id/btncancelarSeleccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/margenBtEt"
+            android:layout_marginRight="@dimen/margenCancelard"
+            android:backgroundTint="@color/rojoQatar22"
+            android:text="@string/btnCancelarSeleccion"
+            android:textSize="@dimen/textSizeButton1" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

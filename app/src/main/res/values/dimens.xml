@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSizeButton">24sp</dimen>
+    <dimen name="textSizeHint">16sp</dimen>
+    <dimen name="textSizeButton1">16sp</dimen>
+    <dimen name="margenBtEt">6dp</dimen>
+    <dimen name="tvConsulta">20sp</dimen>
+    <dimen name="bottomMultiple">0dp</dimen>
+    <dimen name="buttonMultiple">12sp</dimen>
+    <dimen name="pdTopMultiple">0dp</dimen>
+    <dimen name="pdBottMultiple">0dp</dimen>
+    <dimen name="textSizeMultiple">12sp</dimen>
+    <dimen name="margenCancelard">6dp</dimen>
+    <dimen name="alturaLayoutSeleccion">40dp</dimen>
+    <dimen name="alturaLayoutSeleccionHorizontal">27dp</dimen>
+    <dimen name="margenFrame">18dp</dimen>
+    <dimen name="margenLinearFrameTop">25dp</dimen>
+    <dimen name="anchoBotonRegistro">366dp</dimen>
+</resources>
